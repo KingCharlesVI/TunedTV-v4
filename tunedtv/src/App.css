@@ -60,35 +60,23 @@
   margin-bottom: 20px;
 }
 
-.calendar-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+.schedule-table {
+  overflow-x: auto;
 }
 
-.event {
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  overflow: hidden;
+.schedule-table table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-.event-info {
-  padding: 20px;
+.schedule-table th, .schedule-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
 }
 
-.event-title {
-  font-weight: bold;
-}
-
-.event-date {
-  color: #666;
-}
-
-/* Add background image */
-.calendar-grid {
-  background-image: url('your_background_image.jpg');
-  background-size: cover;
+.schedule-table th {
+  background-color: #f2f2f2;
 }
 
 .article {

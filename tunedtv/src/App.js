@@ -5,7 +5,6 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import Schedule from './components/Schedule';
 import LiveStream from './components/LiveStream';
 import AboutUs from './components/AboutUs';
 import Contact from './components/Contact';

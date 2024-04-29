@@ -1,6 +1,6 @@
 // components/News.js
 import React from 'react';
-import '/App.css';
+import './App.css';
 
 function News() {
   // Hardcoded news articles (replace with your actual content)
