@@ -1,6 +1,8 @@
 /* App.css */
+
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .header {
@@ -46,37 +48,66 @@
 .live-stream,
 .about-us,
 .contact,
-.calendar,
+.Schedule,
 .news {
   text-align: center;
   padding: 50px 20px;
 }
 
-.calendar {
+.schedule {
   padding: 50px 20px;
 }
 
-.calendar h1 {
+.schedule h1 {
   margin-bottom: 20px;
 }
 
-.schedule-table {
-  overflow-x: auto;
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.schedule-table table {
-  width: 100%;
-  border-collapse: collapse;
+.schedule-item {
+  display: flex;
+  gap: 20px;
 }
 
-.schedule-table th, .schedule-table td {
-  border: 1px solid #ddd;
-  padding: 8px;
-  text-align: left;
+.date {
+  flex: 0 0 auto;
 }
 
-.schedule-table th {
-  background-color: #f2f2f2;
+.time {
+  flex: 0 0 auto;
+}
+
+.thumbnail img {
+  max-width: 100px;
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Remove table outlines */
+.schedule-item {
+  border: none;
+}
+
+/* Hide column headings */
+.schedule th {
+  display: none;
 }
 
 .article {
@@ -92,4 +123,35 @@
   margin-bottom: 5px;
 }
 
-/* Add more styling as needed */
+.live-stream {
+  padding: 50px 20px;
+}
+
+.live-player {
+  margin-bottom: 20px;
+}
+
+.past-broadcasts {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.filter-options {
+  margin-bottom: 20px;
+}
+
+.filter-options select {
+  margin-right: 10px;
+}
+
+.past-broadcasts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.broadcast-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
