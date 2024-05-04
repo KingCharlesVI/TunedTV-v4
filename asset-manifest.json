@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tunedtv-v4/static/css/main.741a7aba.css",
+    "main.js": "/tunedtv-v4/static/js/main.d9a90eb7.js",
+    "static/js/453.a0ad8a77.chunk.js": "/tunedtv-v4/static/js/453.a0ad8a77.chunk.js",
+    "index.html": "/tunedtv-v4/index.html",
+    "main.741a7aba.css.map": "/tunedtv-v4/static/css/main.741a7aba.css.map",
+    "main.d9a90eb7.js.map": "/tunedtv-v4/static/js/main.d9a90eb7.js.map",
+    "453.a0ad8a77.chunk.js.map": "/tunedtv-v4/static/js/453.a0ad8a77.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.741a7aba.css",
+    "static/js/main.d9a90eb7.js"
+  ]
+}
